@@ -1,2 +1,4 @@
 # ls2017
-Repositório do trabalho pratico da disciplina de leitura de software 
+
+Repositório do trabalho pratico da disciplina de leitura de software  
+Just a simple edit
