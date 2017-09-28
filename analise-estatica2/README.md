@@ -1,5 +1,7 @@
 # Análise Estática
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e4804b9a324945438345f46343c34a3e)](https://www.codacy.com/app/matheuspiment/pagseguro-java-sdk?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=matheuspiment/pagseguro-java-sdk&amp;utm_campaign=Badge_Grade)
+
 Resultado da análise estática do projeto [pagseguro-java-sdk](https://github.com/pagseguro/pagseguro-java-sdk) por meio do Codacy utilizando a ferramenta PMD 5.7
 
 ![captura de tela de 2017-09-27 21-12-22](https://user-images.githubusercontent.com/14007153/30943699-12ea9044-a3c9-11e7-8d97-0196a3ff8fe7.png)
