@@ -1,5 +1,7 @@
 # Analise Estática
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/cefd107f82c74bd98a0ca6857a15debe)](https://www.codacy.com/app/matheuspiment/adapter?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=matheuspiment/adapter&amp;utm_campaign=Badge_Grade)
+
 Resultado da análise estática do projeto [adapter](https://github.com/kyriosdata/adapter) por meio do Codacy utilizando a ferramenta Checkstyle.
 
 ![captura de tela de 2017-09-27 20-44-01](https://user-images.githubusercontent.com/14007153/30943009-9d545df0-a3c4-11e7-9603-e44d53182590.png)
