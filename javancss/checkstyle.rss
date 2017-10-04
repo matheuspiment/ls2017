@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<rss version="0.91">
+  <channel>
+    <title>com.github.kyriosdata.regras:regras - Checkstyle report</title>
+    <link>https://github.com/kyriosdata/regras</link>
+    <description>com.github.kyriosdata.regras:regras - Checkstyle report</description>
+    <language>en-us</language>
+    <copyright>&#169;2016 - 2017 Instituto de Informática (UFG) - Fábrica de Software</copyright>
+    <item>
+      <title>File: 39,
+             Errors: 188,
+             Warnings: 0,
+             Infos: 0
+      </title>
+            <link>https://github.com/kyriosdata/regras/checkstyle.html</link>
+      <description>
+        <p>Click <a href="https://github.com/kyriosdata/regras/checkstyle.html">here</a> for the full Checkstyle report.</p>
+
+        <table summary="Files" boder="1">
+          <thead>
+            <tr>
+              <th>Files</th>
+              <th style="width:30px;"><abbr title="Info">I</abbr></th>
+              <th style="width:30px;"><abbr title="Warning">W</abbr></th>
+              <th style="width:30px;"><abbr title="Error">E</abbr></th>
+            </tr>
+          </thead>
+          <tbody>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.regra.OrdenacaoService.java">com/github/kyriosdata/regras/regra/OrdenacaoService.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.excecoes.TipoDeAtributoInvalido.java">com/github/kyriosdata/regras/excecoes/TipoDeAtributoInvalido.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.Entidade.java">com/github/kyriosdata/regras/Entidade.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.infraestrutura.Serializador.java">com/github/kyriosdata/regras/infraestrutura/Serializador.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  65
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.avaliacao.AvaliaRegraService.java">com/github/kyriosdata/regras/avaliacao/AvaliaRegraService.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.excecoes.FalhaAoAvaliarRegra.java">com/github/kyriosdata/regras/excecoes/FalhaAoAvaliarRegra.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.excecoes.AvaliaveisIncompativeis.java">com/github/kyriosdata/regras/excecoes/AvaliaveisIncompativeis.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.excecoes.TipoDeRegraInvalido.java">com/github/kyriosdata/regras/excecoes/TipoDeRegraInvalido.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.avaliacao.package-info.java">com/github/kyriosdata/regras/avaliacao/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.regra.package-info.java">com/github/kyriosdata/regras/regra/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.regra.Configuracao.java">com/github/kyriosdata/regras/regra/Configuracao.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.package-info.java">com/github/kyriosdata/regras/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.avaliacao.AvaliadorService.java">com/github/kyriosdata/regras/avaliacao/AvaliadorService.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  5
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.regra.RegraSomatorio.java">com/github/kyriosdata/regras/regra/RegraSomatorio.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  3
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.regra.Regra.java">com/github/kyriosdata/regras/regra/Regra.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  11
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.excecoes.package-info.java">com/github/kyriosdata/regras/excecoes/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.regra.RegraPontosPorRelato.java">com/github/kyriosdata/regras/regra/RegraPontosPorRelato.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.infraestrutura.package-info.java">com/github/kyriosdata/regras/infraestrutura/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.Atributo.java">com/github/kyriosdata/regras/Atributo.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.Observacao.java">com/github/kyriosdata/regras/Observacao.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.excecoes.IdentificadorDesconhecido.java">com/github/kyriosdata/regras/excecoes/IdentificadorDesconhecido.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.Funcao.java">com/github/kyriosdata/regras/Funcao.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.regra.RegraCondicional.java">com/github/kyriosdata/regras/regra/RegraCondicional.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.excecoes.CampoExigidoNaoFornecido.java">com/github/kyriosdata/regras/excecoes/CampoExigidoNaoFornecido.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.infraestrutura.CustomRegraTypeAdapterFactory.java">com/github/kyriosdata/regras/infraestrutura/CustomRegraTypeAdapterFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  26
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.Relato.java">com/github/kyriosdata/regras/Relato.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  11
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.excecoes.IdentificadorExistente.java">com/github/kyriosdata/regras/excecoes/IdentificadorExistente.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.Classe.java">com/github/kyriosdata/regras/Classe.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.regra.RegraExpressao.java">com/github/kyriosdata/regras/regra/RegraExpressao.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  17
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.infraestrutura.ValorSerializer.java">com/github/kyriosdata/regras/infraestrutura/ValorSerializer.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  8
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.Grupo.java">com/github/kyriosdata/regras/Grupo.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.excecoes.ResolucaoUsaTipoException.java">com/github/kyriosdata/regras/excecoes/ResolucaoUsaTipoException.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.infraestrutura.ValorDeserializer.java">com/github/kyriosdata/regras/infraestrutura/ValorDeserializer.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  8
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.Relatorio.java">com/github/kyriosdata/regras/Relatorio.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  10
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.infraestrutura.ParserAdapter.java">com/github/kyriosdata/regras/infraestrutura/ParserAdapter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  6
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.Pontuacao.java">com/github/kyriosdata/regras/Pontuacao.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  3
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.Avaliavel.java">com/github/kyriosdata/regras/Avaliavel.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.Valor.java">com/github/kyriosdata/regras/Valor.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  9
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/kyriosdata/regras/checkstyle.html#com.github.kyriosdata.regras.Contagem.java">com/github/kyriosdata/regras/Contagem.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                      </tbody>
+        </table>
+        
+      </description>
+    </item>
+  </channel>
+</rss>
+

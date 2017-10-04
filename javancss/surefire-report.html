@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>com.github.kyriosdata.bsus:bsus - Surefire Report</title>
+    <title>com.github.kyriosdata.regras:regras - Surefire Report</title>
     <style type="text/css" media="all">
       @import url("./css/maven-base.css");
       @import url("./css/maven-theme.css");
@@ -17,7 +17,7 @@
   <body class="composite">
     <div id="banner">
                     <div id="bannerLeft">
-                com.github.kyriosdata.bsus:bsus
+                com.github.kyriosdata.regras:regras
                 </div>
                     <div class="clear">
         <hr/>
@@ -30,7 +30,7 @@
         <span id="publishDate">Last Published: 2017-10-04</span>
                   &nbsp;| <span id="projectVersion">Version: 1.0.0</span>
                       </div>
-            <div class="xright">                    <a href="./" title="com.github.kyriosdata.bsus:bsus">com.github.kyriosdata.bsus:bsus</a>
+            <div class="xright">                    <a href="./" title="com.github.kyriosdata.regras:regras">com.github.kyriosdata.regras:regras</a>
               
                     
       </div>
@@ -47,12 +47,27 @@
                                                                                                                                                                                                                                                         <li class="collapsed">
                           <a href="project-info.html" title="Project Information">Project Information</a>
                   </li>
-                                                                              <li class="expanded">
+                                                                                                                                                                        <li class="expanded">
                           <a href="project-reports.html" title="Project Reports">Project Reports</a>
                     <ul>
                       <li class="none">
+                          <a href="javancss.html" title="JavaNCSS Report">JavaNCSS Report</a>
+            </li>
+                      <li class="none">
             <strong>Surefire Report</strong>
           </li>
+                      <li class="none">
+                          <a href="pmd.html" title="PMD">PMD</a>
+            </li>
+                      <li class="none">
+                          <a href="xref/index.html" title="Source Xref">Source Xref</a>
+            </li>
+                      <li class="none">
+                          <a href="xref-test/index.html" title="Test Source Xref">Test Source Xref</a>
+            </li>
+                      <li class="none">
+                          <a href="checkstyle.html" title="Checkstyle">Checkstyle</a>
+            </li>
               </ul>
         </li>
           </ul>
@@ -85,7 +100,8 @@ function toggleDisplay(elementId) {
 <div class="section">
 <h2>Surefire Report<a name="Surefire_Report"></a></h2></div>
 <div class="section">
-<h2>Summary<a name="Summary"></a></h2><a name="Summary"></a><br />
+<h2>Summary<a name="Summary"></a></h2><a name="Summary"></a>
+<p>[<a href="#Summary">Summary</a>] [<a href="#Package_List">Package List</a>] [<a href="#Test_Cases">Test Cases</a>]</p><br />
 <table border="1" class="bodyTable">
 <tr class="a">
 <th>Tests</th>
@@ -95,13 +111,821 @@ function toggleDisplay(elementId) {
 <th>Success Rate</th>
 <th>Time</th></tr>
 <tr class="b">
+<td>115</td>
 <td>0</td>
 <td>0</td>
 <td>0</td>
-<td>0</td>
-<td>0%</td>
-<td>0</td></tr></table><br />
+<td>100%</td>
+<td>0.449</td></tr></table><br />
 <p>Note: failures are anticipated and checked for with assertions while errors are unanticipated.</p><br /></div>
+<div class="section">
+<h2>Package List<a name="Package_List"></a></h2><a name="Package_List"></a>
+<p>[<a href="#Summary">Summary</a>] [<a href="#Package_List">Package List</a>] [<a href="#Test_Cases">Test Cases</a>]</p><br />
+<table border="1" class="bodyTable">
+<tr class="a">
+<th>Package</th>
+<th>Tests</th>
+<th>Errors </th>
+<th>Failures</th>
+<th>Skipped</th>
+<th>Success Rate</th>
+<th>Time</th></tr>
+<tr class="b">
+<td><a href="#com.github.kyriosdata.regras">com.github.kyriosdata.regras</a></td>
+<td>77</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0.255</td></tr>
+<tr class="a">
+<td><a href="#com.github.kyriosdata.regras.regra">com.github.kyriosdata.regras.regra</a></td>
+<td>23</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0.034</td></tr>
+<tr class="b">
+<td><a href="#com.github.kyriosdata.regras.avaliacao">com.github.kyriosdata.regras.avaliacao</a></td>
+<td>7</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0.113</td></tr>
+<tr class="a">
+<td><a href="#com.github.kyriosdata.regras.infraestrutura">com.github.kyriosdata.regras.infraestrutura</a></td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0.047</td></tr></table><br />
+<p>Note: package statistics are not computed recursively, they only sum up all of its testsuites numbers.</p>
+<div class="section">
+<h3>com.github.kyriosdata.regras<a name="com.github.kyriosdata.regras"></a></h3><a name="com.github.kyriosdata.regras"></a>
+<table border="1" class="bodyTable">
+<tr class="a">
+<th></th>
+<th>Class</th>
+<th>Tests</th>
+<th>Errors </th>
+<th>Failures</th>
+<th>Skipped</th>
+<th>Success Rate</th>
+<th>Time</th></tr>
+<tr class="b">
+<td><a href="#com.github.kyriosdata.regrasAtributoTest"><img src="images/icon_success_sml.gif" alt="" /></a></td>
+<td><a href="#com.github.kyriosdata.regrasAtributoTest">AtributoTest</a></td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0.004</td></tr>
+<tr class="a">
+<td><a href="#com.github.kyriosdata.regrasConfiguracaoTest"><img src="images/icon_success_sml.gif" alt="" /></a></td>
+<td><a href="#com.github.kyriosdata.regrasConfiguracaoTest">ConfiguracaoTest</a></td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0.011</td></tr>
+<tr class="b">
+<td><a href="#com.github.kyriosdata.regrasExperimentaExceptionsTest"><img src="images/icon_success_sml.gif" alt="" /></a></td>
+<td><a href="#com.github.kyriosdata.regrasExperimentaExceptionsTest">ExperimentaExceptionsTest</a></td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0.004</td></tr>
+<tr class="a">
+<td><a href="#com.github.kyriosdata.regrasValorTest"><img src="images/icon_success_sml.gif" alt="" /></a></td>
+<td><a href="#com.github.kyriosdata.regrasValorTest">ValorTest</a></td>
+<td>11</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0.011</td></tr>
+<tr class="b">
+<td><a href="#com.github.kyriosdata.regrasFuncaoTest"><img src="images/icon_success_sml.gif" alt="" /></a></td>
+<td><a href="#com.github.kyriosdata.regrasFuncaoTest">FuncaoTest</a></td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0.003</td></tr>
+<tr class="a">
+<td><a href="#com.github.kyriosdata.regrasOrdenacaoItensTest"><img src="images/icon_success_sml.gif" alt="" /></a></td>
+<td><a href="#com.github.kyriosdata.regrasOrdenacaoItensTest">OrdenacaoItensTest</a></td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0.01</td></tr>
+<tr class="b">
+<td><a href="#com.github.kyriosdata.regrasParecerTest"><img src="images/icon_success_sml.gif" alt="" /></a></td>
+<td><a href="#com.github.kyriosdata.regrasParecerTest">ParecerTest</a></td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0.013</td></tr>
+<tr class="a">
+<td><a href="#com.github.kyriosdata.regrasPontuacaoTest"><img src="images/icon_success_sml.gif" alt="" /></a></td>
+<td><a href="#com.github.kyriosdata.regrasPontuacaoTest">PontuacaoTest</a></td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0.013</td></tr>
+<tr class="b">
+<td><a href="#com.github.kyriosdata.regrasClasseTest"><img src="images/icon_success_sml.gif" alt="" /></a></td>
+<td><a href="#com.github.kyriosdata.regrasClasseTest">ClasseTest</a></td>
+<td>12</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0.033</td></tr>
+<tr class="a">
+<td><a href="#com.github.kyriosdata.regrasRegrasTest"><img src="images/icon_success_sml.gif" alt="" /></a></td>
+<td><a href="#com.github.kyriosdata.regrasRegrasTest">RegrasTest</a></td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0.002</td></tr>
+<tr class="b">
+<td><a href="#com.github.kyriosdata.regrasRelatorioTest"><img src="images/icon_success_sml.gif" alt="" /></a></td>
+<td><a href="#com.github.kyriosdata.regrasRelatorioTest">RelatorioTest</a></td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0.014</td></tr>
+<tr class="a">
+<td><a href="#com.github.kyriosdata.regrasEntidadeTest"><img src="images/icon_success_sml.gif" alt="" /></a></td>
+<td><a href="#com.github.kyriosdata.regrasEntidadeTest">EntidadeTest</a></td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0.017</td></tr>
+<tr class="b">
+<td><a href="#com.github.kyriosdata.regrasRelatoTest"><img src="images/icon_success_sml.gif" alt="" /></a></td>
+<td><a href="#com.github.kyriosdata.regrasRelatoTest">RelatoTest</a></td>
+<td>10</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0.032</td></tr>
+<tr class="a">
+<td><a href="#com.github.kyriosdata.regrasObservacaoTest"><img src="images/icon_success_sml.gif" alt="" /></a></td>
+<td><a href="#com.github.kyriosdata.regrasObservacaoTest">ObservacaoTest</a></td>
+<td>7</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0.088</td></tr></table></div>
+<div class="section">
+<h3>com.github.kyriosdata.regras.regra<a name="com.github.kyriosdata.regras.regra"></a></h3><a name="com.github.kyriosdata.regras.regra"></a>
+<table border="1" class="bodyTable">
+<tr class="a">
+<th></th>
+<th>Class</th>
+<th>Tests</th>
+<th>Errors </th>
+<th>Failures</th>
+<th>Skipped</th>
+<th>Success Rate</th>
+<th>Time</th></tr>
+<tr class="b">
+<td><a href="#com.github.kyriosdata.regras.regraRegraExpressaoTest"><img src="images/icon_success_sml.gif" alt="" /></a></td>
+<td><a href="#com.github.kyriosdata.regras.regraRegraExpressaoTest">RegraExpressaoTest</a></td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0.006</td></tr>
+<tr class="a">
+<td><a href="#com.github.kyriosdata.regras.regraRegraSomatorioTest"><img src="images/icon_success_sml.gif" alt="" /></a></td>
+<td><a href="#com.github.kyriosdata.regras.regraRegraSomatorioTest">RegraSomatorioTest</a></td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0.008</td></tr>
+<tr class="b">
+<td><a href="#com.github.kyriosdata.regras.regraRegraCondicionalTest"><img src="images/icon_success_sml.gif" alt="" /></a></td>
+<td><a href="#com.github.kyriosdata.regras.regraRegraCondicionalTest">RegraCondicionalTest</a></td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0.006</td></tr>
+<tr class="a">
+<td><a href="#com.github.kyriosdata.regras.regraRegraPontosPorRelatoTest"><img src="images/icon_success_sml.gif" alt="" /></a></td>
+<td><a href="#com.github.kyriosdata.regras.regraRegraPontosPorRelatoTest">RegraPontosPorRelatoTest</a></td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0.008</td></tr>
+<tr class="b">
+<td><a href="#com.github.kyriosdata.regras.regraRegraTest"><img src="images/icon_success_sml.gif" alt="" /></a></td>
+<td><a href="#com.github.kyriosdata.regras.regraRegraTest">RegraTest</a></td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0.006</td></tr></table></div>
+<div class="section">
+<h3>com.github.kyriosdata.regras.avaliacao<a name="com.github.kyriosdata.regras.avaliacao"></a></h3><a name="com.github.kyriosdata.regras.avaliacao"></a>
+<table border="1" class="bodyTable">
+<tr class="a">
+<th></th>
+<th>Class</th>
+<th>Tests</th>
+<th>Errors </th>
+<th>Failures</th>
+<th>Skipped</th>
+<th>Success Rate</th>
+<th>Time</th></tr>
+<tr class="b">
+<td><a href="#com.github.kyriosdata.regras.avaliacaoAvaliadorServiceTest"><img src="images/icon_success_sml.gif" alt="" /></a></td>
+<td><a href="#com.github.kyriosdata.regras.avaliacaoAvaliadorServiceTest">AvaliadorServiceTest</a></td>
+<td>7</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0.113</td></tr></table></div>
+<div class="section">
+<h3>com.github.kyriosdata.regras.infraestrutura<a name="com.github.kyriosdata.regras.infraestrutura"></a></h3><a name="com.github.kyriosdata.regras.infraestrutura"></a>
+<table border="1" class="bodyTable">
+<tr class="a">
+<th></th>
+<th>Class</th>
+<th>Tests</th>
+<th>Errors </th>
+<th>Failures</th>
+<th>Skipped</th>
+<th>Success Rate</th>
+<th>Time</th></tr>
+<tr class="b">
+<td><a href="#com.github.kyriosdata.regras.infraestruturaSerializadorTest"><img src="images/icon_success_sml.gif" alt="" /></a></td>
+<td><a href="#com.github.kyriosdata.regras.infraestruturaSerializadorTest">SerializadorTest</a></td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td>0.047</td></tr></table></div><br /></div>
+<div class="section">
+<h2>Test Cases<a name="Test_Cases"></a></h2><a name="Test_Cases"></a>
+<p>[<a href="#Summary">Summary</a>] [<a href="#Package_List">Package List</a>] [<a href="#Test_Cases">Test Cases</a>]</p>
+<div class="section">
+<h3>AtributoTest<a name="AtributoTest"></a></h3><a name="com.github.kyriosdata.regrasAtributoTest"></a>
+<table border="1" class="bodyTable">
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.AtributoTest.situacoesExcepcionais"></a>situacoesExcepcionais</td>
+<td>0.001</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.AtributoTest.atributoRecuperadoConformeDefinido"></a>atributoRecuperadoConformeDefinido</td>
+<td>0</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.AtributoTest.atributosIguaisHashCodeIguais"></a>atributosIguaisHashCodeIguais</td>
+<td>0.001</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.AtributoTest.atributosDistintos"></a>atributosDistintos</td>
+<td>0</td></tr></table></div>
+<div class="section">
+<h3>ConfiguracaoTest<a name="ConfiguracaoTest"></a></h3><a name="com.github.kyriosdata.regrasConfiguracaoTest"></a>
+<table border="1" class="bodyTable">
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ConfiguracaoTest.situacoesExcepcionais"></a>situacoesExcepcionais</td>
+<td>0.003</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ConfiguracaoTest.regrasVaziaGeraExcecao"></a>regrasVaziaGeraExcecao</td>
+<td>0.001</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ConfiguracaoTest.regraValidaNaoGeraExcecao"></a>regraValidaNaoGeraExcecao</td>
+<td>0.004</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ConfiguracaoTest.desigualdade"></a>desigualdade</td>
+<td>0.001</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ConfiguracaoTest.resolucoesIguaisSeIdsIguais"></a>resolucoesIguaisSeIdsIguais</td>
+<td>0</td></tr></table></div>
+<div class="section">
+<h3>RegraExpressaoTest<a name="RegraExpressaoTest"></a></h3><a name="com.github.kyriosdata.regras.regraRegraExpressaoTest"></a>
+<table border="1" class="bodyTable">
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.regra.RegraExpressaoTest.agradarCobertura"></a>agradarCobertura</td>
+<td>0.001</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.regra.RegraExpressaoTest.parserObrigatorioParaPreparacao"></a>parserObrigatorioParaPreparacao</td>
+<td>0</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.regra.RegraExpressaoTest.regraDefinidaPorConstante"></a>regraDefinidaPorConstante</td>
+<td>0.001</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.regra.RegraExpressaoTest.regraDependeDeVariavelNaoFornecidaAssumeZero"></a>regraDependeDeVariavelNaoFornecidaAssumeZero</td>
+<td>0</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.regra.RegraExpressaoTest.somatorioSemVariavelGeraExcecao"></a>somatorioSemVariavelGeraExcecao</td>
+<td>0</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.regra.RegraExpressaoTest.semRegistroZeroPontos"></a>semRegistroZeroPontos</td>
+<td>0</td></tr></table></div>
+<div class="section">
+<h3>RegraSomatorioTest<a name="RegraSomatorioTest"></a></h3><a name="com.github.kyriosdata.regras.regraRegraSomatorioTest"></a>
+<table border="1" class="bodyTable">
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.regra.RegraSomatorioTest.situacoesExcepcionaisDeConstrucao"></a>situacoesExcepcionaisDeConstrucao</td>
+<td>0.001</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.regra.RegraSomatorioTest.nenhumAvaliavelSomatorioZero"></a>nenhumAvaliavelSomatorioZero</td>
+<td>0</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.regra.RegraSomatorioTest.nenhumAvaliavelDaClasseSomatorioZero"></a>nenhumAvaliavelDaClasseSomatorioZero</td>
+<td>0</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.regra.RegraSomatorioTest.umAvaliavelComExpressaoConstante"></a>umAvaliavelComExpressaoConstante</td>
+<td>0.002</td></tr></table></div>
+<div class="section">
+<h3>RegraCondicionalTest<a name="RegraCondicionalTest"></a></h3><a name="com.github.kyriosdata.regras.regraRegraCondicionalTest"></a>
+<table border="1" class="bodyTable">
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.regra.RegraCondicionalTest.entaoObrigatoriamenteDeveSerFornecido"></a>entaoObrigatoriamenteDeveSerFornecido</td>
+<td>0</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.regra.RegraCondicionalTest.agradarCobertura"></a>agradarCobertura</td>
+<td>0.001</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.regra.RegraCondicionalTest.expressaoCondicional"></a>expressaoCondicional</td>
+<td>0.001</td></tr></table></div>
+<div class="section">
+<h3>RegraPontosPorRelatoTest<a name="RegraPontosPorRelatoTest"></a></h3><a name="com.github.kyriosdata.regras.regraRegraPontosPorRelatoTest"></a>
+<table border="1" class="bodyTable">
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.regra.RegraPontosPorRelatoTest.tipoRelatoNaoPodeSerNull"></a>tipoRelatoNaoPodeSerNull</td>
+<td>0</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.regra.RegraPontosPorRelatoTest.tipoRelatoNaoPodeSerVazio"></a>tipoRelatoNaoPodeSerVazio</td>
+<td>0.001</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.regra.RegraPontosPorRelatoTest.agradaCobertura"></a>agradaCobertura</td>
+<td>0.001</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.regra.RegraPontosPorRelatoTest.nenhumRelatoTotalDePontosZeroOuMinimo"></a>nenhumRelatoTotalDePontosZeroOuMinimo</td>
+<td>0</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.regra.RegraPontosPorRelatoTest.variosRelatosTotalObtidoPelaMultiplicacao"></a>variosRelatosTotalObtidoPelaMultiplicacao</td>
+<td>0.001</td></tr></table></div>
+<div class="section">
+<h3>RegraTest<a name="RegraTest"></a></h3><a name="com.github.kyriosdata.regras.regraRegraTest"></a>
+<table border="1" class="bodyTable">
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.regra.RegraTest.preparacaoApenasParaCobertura"></a>preparacaoApenasParaCobertura</td>
+<td>0.001</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.regra.RegraTest.ajustaLimitesCorretamente"></a>ajustaLimitesCorretamente</td>
+<td>0</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.regra.RegraTest.apenasParaAgradarCobertura"></a>apenasParaAgradarCobertura</td>
+<td>0</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.regra.RegraTest.situacoesExcepcionaisDeConstrucao"></a>situacoesExcepcionaisDeConstrucao</td>
+<td>0.002</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.regra.RegraTest.igualdadeEntreRegras"></a>igualdadeEntreRegras</td>
+<td>0</td></tr></table></div>
+<div class="section">
+<h3>ExperimentaExceptionsTest<a name="ExperimentaExceptionsTest"></a></h3><a name="com.github.kyriosdata.regrasExperimentaExceptionsTest"></a>
+<table border="1" class="bodyTable">
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ExperimentaExceptionsTest.geraExcecoesApenasParaCobertura"></a>geraExcecoesApenasParaCobertura</td>
+<td>0.002</td></tr></table></div>
+<div class="section">
+<h3>ValorTest<a name="ValorTest"></a></h3><a name="com.github.kyriosdata.regrasValorTest"></a>
+<table border="1" class="bodyTable">
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ValorTest.umValorLogicoObtidoDeTipoIncompativelResultaFalse"></a>umValorLogicoObtidoDeTipoIncompativelResultaFalse</td>
+<td>0</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ValorTest.umValorLogicoObtidoDeTipoIncompativel2ResultaFalse"></a>umValorLogicoObtidoDeTipoIncompativel2ResultaFalse</td>
+<td>0.001</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ValorTest.umValorString"></a>umValorString</td>
+<td>0.001</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ValorTest.umValorLogicoFalso"></a>umValorLogicoFalso</td>
+<td>0</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ValorTest.umValorReal"></a>umValorReal</td>
+<td>0</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ValorTest.umaDataInvalida"></a>umaDataInvalida</td>
+<td>0.001</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ValorTest.umValorLogicoVerdadeiro"></a>umValorLogicoVerdadeiro</td>
+<td>0</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ValorTest.umaData"></a>umaData</td>
+<td>0.001</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ValorTest.umaSequenciaDeCaracteres"></a>umaSequenciaDeCaracteres</td>
+<td>0</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ValorTest.valorDiferenteDeOutroObjeto"></a>valorDiferenteDeOutroObjeto</td>
+<td>0.001</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ValorTest.hashCodeComparado"></a>hashCodeComparado</td>
+<td>0.001</td></tr></table></div>
+<div class="section">
+<h3>FuncaoTest<a name="FuncaoTest"></a></h3><a name="com.github.kyriosdata.regrasFuncaoTest"></a>
+<table border="1" class="bodyTable">
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.FuncaoTest.umValorLogicoFalso"></a>umValorLogicoFalso</td>
+<td>0.001</td></tr></table></div>
+<div class="section">
+<h3>SerializadorTest<a name="SerializadorTest"></a></h3><a name="com.github.kyriosdata.regras.infraestruturaSerializadorTest"></a>
+<table border="1" class="bodyTable">
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.infraestrutura.SerializadorTest.serializarRegraExpressao"></a>serializarRegraExpressao</td>
+<td>0.006</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.infraestrutura.SerializadorTest.serializarPontuacao"></a>serializarPontuacao</td>
+<td>0.002</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.infraestrutura.SerializadorTest.serializarRegraPontosPorRelato"></a>serializarRegraPontosPorRelato</td>
+<td>0.001</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.infraestrutura.SerializadorTest.valoresPadraoParaRegraExpressao"></a>valoresPadraoParaRegraExpressao</td>
+<td>0.001</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.infraestrutura.SerializadorTest.serializarConfiguracao"></a>serializarConfiguracao</td>
+<td>0.008</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.infraestrutura.SerializadorTest.serializarRelato"></a>serializarRelato</td>
+<td>0.002</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.infraestrutura.SerializadorTest.serializarRelatorio"></a>serializarRelatorio</td>
+<td>0.002</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.infraestrutura.SerializadorTest.serializarValor"></a>serializarValor</td>
+<td>0.016</td></tr></table></div>
+<div class="section">
+<h3>OrdenacaoItensTest<a name="OrdenacaoItensTest"></a></h3><a name="com.github.kyriosdata.regrasOrdenacaoItensTest"></a>
+<table border="1" class="bodyTable">
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.OrdenacaoItensTest.semItensOrdenacaoTrivial"></a>semItensOrdenacaoTrivial</td>
+<td>0.001</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.OrdenacaoItensTest.umItemOrdenacaoTrivial"></a>umItemOrdenacaoTrivial</td>
+<td>0.002</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.OrdenacaoItensTest.umItemDependenteDeAtributoOrdenacaoTrivial"></a>umItemDependenteDeAtributoOrdenacaoTrivial</td>
+<td>0</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.OrdenacaoItensTest.duasRegrasOrdenacaoUnica"></a>duasRegrasOrdenacaoUnica</td>
+<td>0</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.OrdenacaoItensTest.cadItemInseridoUmaUnicaVez"></a>cadItemInseridoUmaUnicaVez</td>
+<td>0</td></tr></table></div>
+<div class="section">
+<h3>ParecerTest<a name="ParecerTest"></a></h3><a name="com.github.kyriosdata.regrasParecerTest"></a>
+<table border="1" class="bodyTable">
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ParecerTest.situacoesExcepcionaisDeConstrucao"></a>situacoesExcepcionaisDeConstrucao</td>
+<td>0.002</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ParecerTest.parecerRecuperadoConformeCriado"></a>parecerRecuperadoConformeCriado</td>
+<td>0.006</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ParecerTest.construtorGeraId"></a>construtorGeraId</td>
+<td>0</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ParecerTest.pareceresIguais"></a>pareceresIguais</td>
+<td>0</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ParecerTest.pareceresDistintos"></a>pareceresDistintos</td>
+<td>0</td></tr></table></div>
+<div class="section">
+<h3>PontuacaoTest<a name="PontuacaoTest"></a></h3><a name="com.github.kyriosdata.regrasPontuacaoTest"></a>
+<table border="1" class="bodyTable">
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.PontuacaoTest.classePontuacao"></a>classePontuacao</td>
+<td>0</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.PontuacaoTest.pontuacaoEquals"></a>pontuacaoEquals</td>
+<td>0</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.PontuacaoTest.pontuacaoNotEqualsToOtherObject"></a>pontuacaoNotEqualsToOtherObject</td>
+<td>0</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.PontuacaoTest.montaRecuperaPontuacao"></a>montaRecuperaPontuacao</td>
+<td>0</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.PontuacaoTest.nomeNullGeraExcecao"></a>nomeNullGeraExcecao</td>
+<td>0</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.PontuacaoTest.valorNullGeraExcecao"></a>valorNullGeraExcecao</td>
+<td>0.001</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.PontuacaoTest.avaliavelRetornaValorDoAtributo"></a>avaliavelRetornaValorDoAtributo</td>
+<td>0</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.PontuacaoTest.avaliavelRetornaNullParaAtributoInvalido"></a>avaliavelRetornaNullParaAtributoInvalido</td>
+<td>0.001</td></tr></table></div>
+<div class="section">
+<h3>ClasseTest<a name="ClasseTest"></a></h3><a name="com.github.kyriosdata.regrasClasseTest"></a>
+<table border="1" class="bodyTable">
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ClasseTest.tipoIdentificadoPorCodigo"></a>tipoIdentificadoPorCodigo</td>
+<td>0.001</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ClasseTest.tipoDevePossuirIdentificadorNaoNull"></a>tipoDevePossuirIdentificadorNaoNull</td>
+<td>0.001</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ClasseTest.tipoDevePossuirIdentificadorNaoVazio"></a>tipoDevePossuirIdentificadorNaoVazio</td>
+<td>0.002</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ClasseTest.tipoDevePossuirAtributos"></a>tipoDevePossuirAtributos</td>
+<td>0.001</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ClasseTest.tipoDevePossuirPeloMenosUmAtributo"></a>tipoDevePossuirPeloMenosUmAtributo</td>
+<td>0</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ClasseTest.nomeDoTipoNaoPodeSerNull"></a>nomeDoTipoNaoPodeSerNull</td>
+<td>0</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ClasseTest.casosDeIgualdade"></a>casosDeIgualdade</td>
+<td>0.001</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ClasseTest.aulaPresencialNaGraduacao"></a>aulaPresencialNaGraduacao</td>
+<td>0</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ClasseTest.umGrupo"></a>umGrupo</td>
+<td>0.002</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ClasseTest.grupoDevePossuirCodigo"></a>grupoDevePossuirCodigo</td>
+<td>0.001</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ClasseTest.grupoDevePossuirPeloMenosUmAtributo"></a>grupoDevePossuirPeloMenosUmAtributo</td>
+<td>0.001</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ClasseTest.grupoDevePossuirPeloMenosUmTipo"></a>grupoDevePossuirPeloMenosUmTipo</td>
+<td>0.01</td></tr></table></div>
+<div class="section">
+<h3>RegrasTest<a name="RegrasTest"></a></h3><a name="com.github.kyriosdata.regrasRegrasTest"></a>
+<table border="1" class="bodyTable">
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.RegrasTest.umaRegraTrivial"></a>umaRegraTrivial</td>
+<td>0.001</td></tr></table></div>
+<div class="section">
+<h3>RelatorioTest<a name="RelatorioTest"></a></h3><a name="com.github.kyriosdata.regrasRelatorioTest"></a>
+<table border="1" class="bodyTable">
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.RelatorioTest.situacoesExcepcionais"></a>situacoesExcepcionais</td>
+<td>0.002</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.RelatorioTest.semRelatosBuscaPorTipoRetornaZero"></a>semRelatosBuscaPorTipoRetornaZero</td>
+<td>0.001</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.RelatorioTest.relatosPorTipo"></a>relatosPorTipo</td>
+<td>0</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.RelatorioTest.recuperaCorretamente"></a>recuperaCorretamente</td>
+<td>0.001</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.RelatorioTest.igualdade"></a>igualdade</td>
+<td>0</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.RelatorioTest.hashCodeContrato"></a>hashCodeContrato</td>
+<td>0.001</td></tr></table></div>
+<div class="section">
+<h3>EntidadeTest<a name="EntidadeTest"></a></h3><a name="com.github.kyriosdata.regrasEntidadeTest"></a>
+<table border="1" class="bodyTable">
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.EntidadeTest.construcaoSemArgumentoIdAutomatico"></a>construcaoSemArgumentoIdAutomatico</td>
+<td>0.015</td></tr></table></div>
+<div class="section">
+<h3>RelatoTest<a name="RelatoTest"></a></h3><a name="com.github.kyriosdata.regrasRelatoTest"></a>
+<table border="1" class="bodyTable">
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.RelatoTest.situacoesExcepcionaisDeConstrucao"></a>situacoesExcepcionaisDeConstrucao</td>
+<td>0.003</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.RelatoTest.criaRecupera"></a>criaRecupera</td>
+<td>0.001</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.RelatoTest.relatosDistintosPorTipo"></a>relatosDistintosPorTipo</td>
+<td>0</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.RelatoTest.relatoDistintoDeNull"></a>relatoDistintoDeNull</td>
+<td>0.001</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.RelatoTest.relatoIgualASi"></a>relatoIgualASi</td>
+<td>0</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.RelatoTest.relatoDistintoDeOutroTipoDeObjeto"></a>relatoDistintoDeOutroTipoDeObjeto</td>
+<td>0</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.RelatoTest.relatosDistintosPorValores"></a>relatosDistintosPorValores</td>
+<td>0.001</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.RelatoTest.relatosDistintosPorQuantidadeDeValores"></a>relatosDistintosPorQuantidadeDeValores</td>
+<td>0</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.RelatoTest.relatosIguaisHashCodeIguais"></a>relatosIguaisHashCodeIguais</td>
+<td>0</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.RelatoTest.qualquerRelatoPossuiPeloMenosUmaValor"></a>qualquerRelatoPossuiPeloMenosUmaValor</td>
+<td>0.001</td></tr></table></div>
+<div class="section">
+<h3>AvaliadorServiceTest<a name="AvaliadorServiceTest"></a></h3><a name="com.github.kyriosdata.regras.avaliacaoAvaliadorServiceTest"></a>
+<table border="1" class="bodyTable">
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.avaliacao.AvaliadorServiceTest.umaRegraConstante"></a>umaRegraConstante</td>
+<td>0.004</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.avaliacao.AvaliadorServiceTest.nenhumaRegraNenhumResultado"></a>nenhumaRegraNenhumResultado</td>
+<td>0.001</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.avaliacao.AvaliadorServiceTest.umaExpressaoDependenteDeVarNaoFornecida"></a>umaExpressaoDependenteDeVarNaoFornecida</td>
+<td>0.002</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.avaliacao.AvaliadorServiceTest.umaExpressaoDependenteDeParametro"></a>umaExpressaoDependenteDeParametro</td>
+<td>0.001</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.avaliacao.AvaliadorServiceTest.umaCondicao"></a>umaCondicao</td>
+<td>0.002</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.avaliacao.AvaliadorServiceTest.umaRegraDependenteDeOutraRegra"></a>umaRegraDependenteDeOutraRegra</td>
+<td>0.001</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.avaliacao.AvaliadorServiceTest.testesDeArquivosJson"></a>testesDeArquivosJson</td>
+<td>0.096</td></tr></table></div>
+<div class="section">
+<h3>ObservacaoTest<a name="ObservacaoTest"></a></h3><a name="com.github.kyriosdata.regrasObservacaoTest"></a>
+<table border="1" class="bodyTable">
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ObservacaoTest.semNovoImplicaRemocao"></a>semNovoImplicaRemocao</td>
+<td>0.033</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ObservacaoTest.origemDestinoPeloMenosUm"></a>origemDestinoPeloMenosUm</td>
+<td>0.002</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ObservacaoTest.montaRecuperaCorretamenteUmaNota"></a>montaRecuperaCorretamenteUmaNota</td>
+<td>0.003</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ObservacaoTest.origemSignificaInsercao"></a>origemSignificaInsercao</td>
+<td>0.002</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ObservacaoTest.destinoPodeSerNull"></a>destinoPodeSerNull</td>
+<td>0.001</td></tr>
+<tr class="b">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ObservacaoTest.justificativaNullGeraExcecao"></a>justificativaNullGeraExcecao</td>
+<td>0.001</td></tr>
+<tr class="a">
+<td><img src="images/icon_success_sml.gif" alt="" /></td>
+<td><a name="TC_com.github.kyriosdata.regras.ObservacaoTest.tentativaDeCriarNotaComAvaliaveisDeTiposDistintos"></a>tentativaDeCriarNotaComAvaliaveisDeTiposDistintos</td>
+<td>0.001</td></tr></table></div><br /></div>
       </div>
     </div>
     <div class="clear">
@@ -109,7 +933,7 @@ function toggleDisplay(elementId) {
     </div>
     <div id="footer">
       <div class="xright">
-              Copyright &#169;                    2017
+              Copyright &#169;                    2016-2017
                         <a href="http://www.inf.ufg.br">Instituto de Informática (UFG) - Fábrica de Software</a>.
             All Rights Reserved.      
                     
